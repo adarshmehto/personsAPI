@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 require("dotenv").config();
+
+//select this or that
 const port = process.env.PORT || 3000;
 
 //ye middlewares ko hmesha yaha pr hi add krna agr routes wali file mein krenge to data post k time pr error aegi
