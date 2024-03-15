@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
+const mongoURL = "mongodb+srv://adarshmehto4:adarsh4@cluster0.fhsta41.mongodb.net/";
 // Set up MongoDB connection
-mongoose.connect("mongodb://localhost:27017/", {
+mongoose.connect(mongoURL, {
     dbName: "Users",
 });
 
